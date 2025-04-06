@@ -1,4 +1,4 @@
-﻿namespace SmartNotes.Application
+﻿namespace SmartNotes.Application.DataTransferObjects
 {
     public record WeatherForecast(DateOnly Date, int TemperatureC, string? Summary)
     {

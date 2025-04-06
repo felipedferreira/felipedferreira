@@ -1,4 +1,4 @@
-using SmartNotes.Application;
+using SmartNotes.Application.DataTransferObjects;
 
 namespace SmartNotes.WebApi.Endpoints;
 

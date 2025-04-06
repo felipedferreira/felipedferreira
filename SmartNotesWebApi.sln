@@ -1,0 +1,57 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{F3E2A7BA-A902-4D74-A5A5-6544FC3966E4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SmartNotes.WebApi", "src\SmartNotes.WebApi\SmartNotes.WebApi.csproj", "{0EDC99B2-D639-4B40-8F16-9786A8C31811}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{84FFB2CF-BAB3-42A7-81A2-BC45AA246B88}"
+	ProjectSection(SolutionItems) = preProject
+		compose.yaml = compose.yaml
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SmartNotes.Application", "src\SmartNotes.Application\SmartNotes.Application.csproj", "{9A483914-388F-41C1-8F31-900B636C8EF8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SmartNotes.Application.Abstractions", "src\SmartNotes.Application.Abstractions\SmartNotes.Application.Abstractions.csproj", "{9206ED69-B95F-40A3-9608-5E610098F198}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SmartNotes.Domain", "src\SmartNotes.Domain\SmartNotes.Domain.csproj", "{207C94C3-54A1-4D6E-A8E9-36BAE9CBE0AE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Adapters", "Adapters", "{1888D88F-DA99-4CA5-8DF0-D7721C0321E5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{0EDC99B2-D639-4B40-8F16-9786A8C31811} = {F3E2A7BA-A902-4D74-A5A5-6544FC3966E4}
+		{9A483914-388F-41C1-8F31-900B636C8EF8} = {F3E2A7BA-A902-4D74-A5A5-6544FC3966E4}
+		{9206ED69-B95F-40A3-9608-5E610098F198} = {F3E2A7BA-A902-4D74-A5A5-6544FC3966E4}
+		{207C94C3-54A1-4D6E-A8E9-36BAE9CBE0AE} = {F3E2A7BA-A902-4D74-A5A5-6544FC3966E4}
+		{1888D88F-DA99-4CA5-8DF0-D7721C0321E5} = {F3E2A7BA-A902-4D74-A5A5-6544FC3966E4}
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0EDC99B2-D639-4B40-8F16-9786A8C31811}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0EDC99B2-D639-4B40-8F16-9786A8C31811}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0EDC99B2-D639-4B40-8F16-9786A8C31811}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0EDC99B2-D639-4B40-8F16-9786A8C31811}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9A483914-388F-41C1-8F31-900B636C8EF8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9A483914-388F-41C1-8F31-900B636C8EF8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9A483914-388F-41C1-8F31-900B636C8EF8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9A483914-388F-41C1-8F31-900B636C8EF8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9206ED69-B95F-40A3-9608-5E610098F198}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9206ED69-B95F-40A3-9608-5E610098F198}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9206ED69-B95F-40A3-9608-5E610098F198}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9206ED69-B95F-40A3-9608-5E610098F198}.Release|Any CPU.Build.0 = Release|Any CPU
+		{207C94C3-54A1-4D6E-A8E9-36BAE9CBE0AE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{207C94C3-54A1-4D6E-A8E9-36BAE9CBE0AE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{207C94C3-54A1-4D6E-A8E9-36BAE9CBE0AE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{207C94C3-54A1-4D6E-A8E9-36BAE9CBE0AE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

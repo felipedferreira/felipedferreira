@@ -1,0 +1,6 @@
+﻿services:
+  smartnotes.webapi:
+    image: smartnotes.webapi
+    build:
+      context: .
+      dockerfile: src/SmartNotes.WebApi/Dockerfile
